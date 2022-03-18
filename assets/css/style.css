@@ -2,6 +2,22 @@ body {
     font-family: calibri, Gill Sans, sans-serif;
 }
 
-/*header {
-    background-image: url("../images/header.jpg");
+header {
+    background-image: url("../images/blueheader.jpg");
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header h1{
+    background: #01294c;
+    font-weight: bold;
+    margin: 0;
+    
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    list-style: none;
 }
