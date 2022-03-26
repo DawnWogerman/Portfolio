@@ -1,70 +1,70 @@
+:root {
+    --primary-color: #151d3b;
+    --secondary-color: #DADBBD;
+    --tertiary-color: #6EBF8B;  
+}
+
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
     font-family: calibri, Gill Sans, sans-serif;
-}
-
-header {
-    padding: 20px, 35px;
-    color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    position:-webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 99999;
-    background: #1d80d6;
-}
-
-header h1{
-    background: #01294c;
-    font-weight: bold;
-    margin: 0;
-    font-size: 36px;
     
 }
+ header {
+     padding: 20px 35px;
+     background-color: var(--primary-color);
+     color: var(--secondary-color);
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     position: sticky;
+     top: 0;
+     flex-wrap: wrap;
+     z-index: 9999;
+    
+    }
 
-header a{
-    text-decoration: none;
-    color:#01294c;
-}
-header nav{
-    margin: 7px;
-}
+ header a{
+     color: var(--secondary-color);
+     background: var(--secondary-color);
+     text-decoration: none;
+     border-radius: 15px;
+ }
 
-header nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
+ header nav {
+     margin: 7px 0;
+ }
 
-header nav ul li a{
-    padding: 10px 15px;
-    background: #01294c;
-    border-radius: 15px;
-    color:#fff;
-}
 
-.hero {
-    background-image: url("../images/blueheader.jpg");
-    background-size: cover;
-    background-position: 80%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-attachment: fixed;
-}
+ header nav ul {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     list-style: none;
+ }
 
-#about-me {
-    display: flex;
-}
+ header nav ul li a {
+     padding: 10px 15px;
+     background-color: var(--primary-color);
+ }
 
-#about-me h1 {
-    justify-content: flex-start;
-}
+ header nav ul li a:hover {
+     background: var(--tertiary-color);
+ }
+
+ .hero {
+     background-image: url("../images/hero.jpg");
+     background-size: cover;
+     background-position: 80%;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     align-items: flex-start;
+     background-attachment: fixed;
+     padding: 10px 15px;
+ }
