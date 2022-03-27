@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #151d3b;
-    --secondary-color: #DADBBD;
-    --tertiary-color: #6EBF8B;  
+    --primary-color: #3A3845;
+    --secondary-color: #F7CCAC;
+    --tertiary-color: #826F66;  
 }
 
 *{
@@ -57,14 +57,84 @@ body {
      background: var(--tertiary-color);
  }
 
- .hero {
-     background-image: url("../images/hero.jpg");
-     background-size: cover;
-     background-position: 80%;
+ #about-me {
+     background: var(--secondary-color);
+     text-align: center;
+ }
+#work {
+    background: var(--tertiary-color);
+    padding: 20px 20px;
+    text-align: center;
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+}
+#work h1 {
+    background: var(--primary-color);
+    width:50%;
+    font-size: 40px;
+    border-radius: 15px;
+
+}
+ .projects {
+     display: grid;
+     grid-gap: 1em;
+     grid-template-columns: 500px 500px;
+     grid-template-rows: 300px 300px 300px 300px;
+     padding-top: 30px;
+     
+ }
+
+ .projects h2 {
+     background: var(--primary-color);
+     color: var(--secondary-color);
+     padding: 20px;
+     border: 3px var(--tertiary-color) solid;
+     border-radius: 15px;
+     margin: 5px 5px 0 0;
+    
+ }
+
+ .project1 {
      display: flex;
-     justify-content: center;
-     flex-wrap: wrap;
-     align-items: flex-start;
-     background-attachment: fixed;
-     padding: 10px 15px;
+     grid-column-start: 1;
+     border: 5px var(--primary-color) solid;
+     border-radius: 15px;
+     background-image: url("../images/bricks.jpg");
+    
+ }
+
+ .project2 {
+    display: flex;
+    border: 5px var(--primary-color) solid;
+    border-radius: 15px;
+    background-image: url("../images/project2.jpg");
+    background-size: cover;
+ }
+
+ .project3 {
+    display: flex;
+    border: 5px var(--primary-color) solid;
+    border-radius: 15px;
+    background-image: url("../images/project3.jpg");
+    background-size: cover;
+ }
+
+ .project4{
+    display: flex;
+    border: 5px var(--primary-color) solid;
+    border-radius: 15px;
+ }
+
+ .project5{
+    grid-column-start: 1;
+    display: flex;
+    border: 5px var(--primary-color) solid;
+    border-radius: 15px;
+ }
+
+ .project6{
+    display: flex;
+    border: 5px var(--primary-color) solid;
+    border-radius: 15px;
  }
