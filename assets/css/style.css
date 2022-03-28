@@ -90,7 +90,7 @@ body {
     text-align: center;
 
 }
-img {
+.me img {
     border: 12px var(--primary-color) solid;
     border-radius: 360px;
     margin:20px;
@@ -194,8 +194,8 @@ img {
     background-size: cover;
  }
 
- .project1:hover {
-     border: 10px var(--tertiary-color);
+ .project1:hover, .project2:hover, .project3:hover, .project4:hover, .project5:hover, .project6:hover  {
+     border: 25px var(--primary-color);
  }
 
  #contact-me {
@@ -215,6 +215,23 @@ img {
     justify-content: center;
 }
 
+.contact {
+    display: flex;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 10px;
+}  
+
+address {
+    font-weight: bolder;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-left: 45px;
+}
+
 footer {
     background: var(--primary-color);
     color: var(--secondary-color);
@@ -222,3 +239,8 @@ footer {
     padding: 20px;
 }
  
+/*Media Query*/
+@media screen and (max-width: 980px){
+    
+    
+}
