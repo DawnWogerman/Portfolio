@@ -15,3 +15,7 @@ A website that shows my work as a developer with an online portfolio.
 - When the page is resized or viewed on different devices the user should be presented with a responsive layout
 
 ## Website
+ https://dawnwogerman.github.io/portfolio/
+
+ # Contributors
+ Dawn Wogerman
