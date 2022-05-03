@@ -156,7 +156,7 @@ body {
     display: flex;
     border: 5px var(--primary-color) solid;
     border-radius: 15px;
-    background-image: url("../images/project2.jpg");
+    background-image: url("../images/KevinBacon.png");
     background-size: cover;
  }
 
@@ -196,6 +196,15 @@ body {
 
  .project1:hover, .project2:hover, .project3:hover, .project4:hover, .project5:hover, .project6:hover  {
      border: 25px var(--primary-color);
+ }
+
+ .link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
  }
 
  #contact-me {
